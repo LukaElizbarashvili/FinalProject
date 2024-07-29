@@ -2,6 +2,7 @@
 .container{
     width: min(100%, 1440px);
     margin: auto;
+    padding-top: 101px;
 }
 /* This is Header */
 header{
@@ -63,18 +64,191 @@ header{
     justify-content: center;
     align-items: center;
     transition: all .5s linear;
-
-    
-}
-.HeaderIcons{
-    font-size: 14px;
     color: #05BCCA;
-    transition: all .5s linear;
+    font-size: 14px;
 
+ 
 }
 .HeaderButtons:hover{
     background-color: #05BCCA;
-}
-.HeaderIcons:hover{
     color: #2C4246;
+
+}
+/* This is the First Section */
+.HomePage_Section1{
+    /* width:inherit; */
+    height: 560px;
+    background-image: url(../Images/HomePageCover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 452px;
+}
+.HomeSection1_Content{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 24px;
+}
+.HomeSection1_Text{
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+span{
+    color: #05BCCA;
+}
+.HomeSection1_Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 24px;
+    background-color: #C46A2B;
+    border: none;
+    border-radius: 4px;
+    color: #D9D9D9;
+    font-size: 24px;
+    transition: all .3s linear;
+}
+.HomeSection1_Button:hover{
+    box-shadow: 0 0 25px 5px rgb(83, 97, 6);
+}
+
+
+
+/* This is The Second Section */
+.HomePage_Section2{
+    height: 716px;
+    padding: 96px 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 64px;
+    background-color: #1A1A1A;
+}
+.Section2_Title{
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #05BCCA;
+}
+.Section2_Title::after{
+    content: "";
+    width: 187.27px;
+    height: 2px;
+    background-color: #05BCCA;
+    display: block;
+    margin-top: 8px;
+    margin-inline: auto;
+}
+.HomeCardContainer{
+    display: flex;
+    column-gap: 20px;
+}
+.Cards{
+    background-color: #2C4246;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 16px;
+    transition: all .3s linear;
+}
+.Cards:hover{
+    box-shadow: 0 0 8px 4px #05BCCACC;
+}
+.HomeCard_Section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 16px;
+}
+.HomeProduct_Name{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #D9D9D9;
+}
+.HomeCard_Section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.fa-star{
+    font-size: 16px;
+    color: #C46A2B;
+}
+/* .Stars{
+    display: flex;
+    column-gap: 4px;
+} */
+.Price_Container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+}
+.fa-dollar-sign, .Price{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #05BCCA;
+}
+
+
+/* This is The footer */
+footer{
+    background-color: #2C4246;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: start; */
+    column-gap: 223px;
+    padding: 48px 306px;
+}
+.Footer_Section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.Footer_Title{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #D9D9D9;
+}
+.Footer_Title::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #D9D9D9;
+    display: block;
+}
+.Footer_List{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.Footer_Text{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;
+}
+.Cards img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
 }
