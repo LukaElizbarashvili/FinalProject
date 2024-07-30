@@ -166,6 +166,11 @@ span{
 .Cards:hover{
     box-shadow: 0 0 8px 4px #05BCCACC;
 }
+.Cards img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
 .HomeCard_Section1{
     display: flex;
     flex-direction: column;
@@ -212,9 +217,7 @@ footer{
     background-color: #2C4246;
     display: flex;
     justify-content: space-between;
-    /* align-items: start; */
-    column-gap: 223px;
-    padding: 48px 306px;
+    padding: 48px calc(306 / 1440 * 100%);
 }
 .Footer_Section{
     display: flex;
@@ -247,8 +250,15 @@ footer{
     line-height: 24px;
     color: #D9D9D9;
 }
-.Cards img{
-    width: 100%;
-    height: 290px;
-    object-fit: cover;
+.SoctialIconContainer{
+    display: flex;
+    column-gap: 16px;
+}
+.Socials{
+    font-size: 24px;
+    color: #D9D9D9;
+    transition: all .3s linear;
+}
+.Socials:hover{
+    color: #C46A2B;
 }
