@@ -1,0 +1,35 @@
+@media (max-width: 1025px) {
+
+    /* header  */
+    header {
+        padding-inline: 45px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .HeaderNav {
+        position: fixed;
+        top: 98.4px;
+        left: -100%;
+        width: 200px;
+        height: 144px;
+        padding: 16px 56px 16px 16px;
+        background-color: #C46A2B;
+        transition: .4s linear;
+    }
+
+    .HeaderUl {
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .show {
+        left: 0;
+    }
+    /* Section 2 cards*/
+    .Cards{
+        overflow: scroll;
+    }
+}
