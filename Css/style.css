@@ -4,6 +4,7 @@
     margin: auto;
     padding-top: 100px;
 }
+/* Index Page */
 /* This is Header */
 header{
     display: flex;
@@ -262,4 +263,97 @@ footer{
 }
 .Socials:hover{
     color: #C46A2B;
+}
+
+
+/* Catalog Page */
+/* Mainc Section */
+.Catalog_MainSection{
+    background-color: #012426;
+    padding: 96px 94px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+.Catalog_SectionHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Filter_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+}
+.CatalogHeaderTxt{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #D9D9D9;
+}
+.Sorting_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 32px;
+}
+.Sorter{
+    padding:4px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A1C3C9;
+    column-gap: 33px;
+    border-radius:4px ;
+}
+.SorterLabel{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2C4246;  
+}
+.Product{
+    display: grid;
+}
+.Card_1{
+    grid-area: CARD1;
+}
+.Card_2{
+    grid-area: CARD2;
+}
+.Card_3{
+    grid-area: CARD3;
+}
+.Card_4{
+    grid-area: CARD4;
+}
+.Card_5{
+    grid-area: CARD5;
+}
+.Card_6{
+    grid-area: CARD6;
+}
+.Card_7{
+    grid-area: CARD7;
+}
+.Card_8{
+    grid-area: CARD8;
+}
+.Card_9{
+    grid-area: CARD9;
+}
+.Card_10{
+    grid-area: CARD10;
+}
+.Product{
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(3, 400px) ;
+    gap: 40px 20px;
+    grid-template-areas: 
+    "CARD1 CARD2 CARD3 CARD4"
+    "CARD5 CARD6 CARD7 CARD8";
 }
