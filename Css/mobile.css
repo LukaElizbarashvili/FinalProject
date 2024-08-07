@@ -1,0 +1,53 @@
+/* mobile 480px - 320px */
+/* Index page */
+@media (max-width: 481px){
+    /* Header */
+    header{
+        padding: 28px 20px;
+
+    }
+    .HeaderLogo{
+        width: 40px;
+        height: 40px;
+    }
+    .ButtonContainer{
+        column-gap: 16px;
+    }
+    .HeaderButtons{
+        width: 32px;
+        height: 32px;
+    }
+    /* Section 1 */
+    .HomeSection1_Text{
+    font-size: 24px;
+    }
+    /* Section 2 */
+    .HomePage_Section2{
+        padding-block: 32px;
+    }
+    .Section2_Title{
+        font-size: 24px;
+    line-height: 32px;
+    }
+    .HomeCardContainer{
+        padding-left: 28px;
+    }
+    .Section2_Title::after{
+        width: 156px;
+    }
+    .card3{
+        display: none;
+    }
+    /* Footer */
+    footer{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+    .Footer_Section{
+        align-items: center;
+    }
+    .SoctialIconContainer{
+        justify-content: center;
+    }
+}

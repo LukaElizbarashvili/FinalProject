@@ -1,0 +1,29 @@
+/* tablet 768px -481px */
+    /* Index page */
+    /* Header */
+@media (max-width: 745px) {
+    header{
+        padding-inline: 32px;
+    }
+    /* Sction 1 */
+    .HomePage_Section1{
+        height: 480px;
+    }
+    /* Section 2 */
+    .HomePage_Section2{
+        padding-block: 48px;
+    }
+    .HomeCardContainer{
+        padding-left: 32px;
+
+    }
+    .card4{
+        display: none;
+    }
+    /* Footer */
+    footer{
+    justify-content: space-between;
+    column-gap: 0;
+    padding-inline: 32px;
+    }
+}

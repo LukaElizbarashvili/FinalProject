@@ -1,5 +1,6 @@
+    /* latop 1439px-769px */
 @media (max-width: 1025px) {
-
+    /* index Page */
     /* header  */
     header {
         padding-inline: 45px;
@@ -28,8 +29,21 @@
     .show {
         left: 0;
     }
+    /* Section 1 */
+    .HomePage_Section1{
+        height: 560px;
+    }
+
     /* Section 2 cards*/
+    .HomePage_Section2{
+        margin-right: 0;
+    }
+    .HomeCardContainer{
+        overflow-x: scroll;
+        padding-left: 45px;
+
+    }
     .Cards{
-        overflow: scroll;
+        flex: 1 0 auto;
     }
 }

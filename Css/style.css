@@ -124,7 +124,7 @@ span{
 
 /* This is The Second Section */
 .HomePage_Section2{
-    height: 716px;
+    /* height: 716px; */
     padding-block: 96px ;
     display: flex;
     flex-direction: column;
@@ -154,6 +154,7 @@ span{
     column-gap: 20px;
 }
 .Cards{
+    flex: 1;
     background-color: #2C4246;
     padding: 8px;
     display: flex;
@@ -165,17 +166,6 @@ span{
 .Cards:hover{
     box-shadow: 0 0 8px 4px #05BCCACC;
 }
-/* @media (max-width:1342px) {
-    .HomeCardContainer {
-        margin-inline-start: 45px;
-        overflow-x: scroll;
-        overflow-y: hidden;
-    }
-
-    .section2 {
-        height: 720px;
-    }
-} */
 .Cards img{
     width: 100%;
     height: 290px;
