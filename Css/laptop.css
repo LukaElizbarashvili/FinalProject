@@ -46,4 +46,26 @@
     .Cards{
         flex: 1 0 auto;
     }
+
+
+    /* Catalog Page */
+    /* Main Section */
+    .Catalog_MainSection{
+        padding-inline:45px;
+    }
+    .Card_9,
+    .Card_10,
+    .Card_11,
+    .Card_12{
+        display: none;
+    }
+    .Product{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:repeat(400px 400px 400px 400px) ;
+        grid-template-areas: 
+        "CARD1 CARD2"
+        "CARD3 CARD4"
+        "CARD5 CARD6"
+        "CARD7 CARD8";
+    }
 }

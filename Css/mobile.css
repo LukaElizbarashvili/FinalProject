@@ -50,4 +50,42 @@
     .SoctialIconContainer{
         justify-content: center;
     }
+        /* Catalog Page */
+    /* Main Section */
+    .Catalog_MainSection{
+        padding-inline:20px;
+    }
+    .Filter_txt,
+    .SorterLabel{
+        display: none;
+    }
+    .Card_5,
+    .Card_6,
+    .Card_7,
+    .Card_8{
+        display: none;
+    }
+    .Product{
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 400px 400px 400px;
+        grid-template-areas: 
+        "CARD1"
+        "CARD2"
+        "CARD3"
+        "CARD4";
+    }
+    .Next,
+    .Previous{
+        padding-inline: 14px;
+    }
+    .Catalog_PageButtonTxt{
+        display: none;
+    }
+}
+@media (max-width: 321px){
+    /* Catalog Page */
+    /* Main Section */
+    .Catalog_MainSection{
+        padding-inline:8px;
+    }
 }

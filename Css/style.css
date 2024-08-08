@@ -315,9 +315,7 @@ footer{
     line-height: 24px;
     color: #2C4246;  
 }
-.Product{
-    display: grid;
-}
+
 .Card_1{
     grid-area: CARD1;
 }
@@ -348,12 +346,65 @@ footer{
 .Card_10{
     grid-area: CARD10;
 }
+.Card_11{
+    grid-area: CARD11;
+}
+.Card_12{
+    grid-area: CARD12;
+}
 .Product{
-    margin: auto;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows:repeat(3, 400px) ;
+    grid-template-rows:repeat(400px 400px 400px) ;
     gap: 40px 20px;
     grid-template-areas: 
     "CARD1 CARD2 CARD3 CARD4"
-    "CARD5 CARD6 CARD7 CARD8";
+    "CARD5 CARD6 CARD7 CARD8"
+    "CARD9 CARD10 CARD11 CARD12 ";
+}
+.Catalog_Pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 48px;
+}
+.Next,
+.Previous{
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #C46A2B;
+    box-shadow: 1px 1px 3px 0px white inset, 3px 3px 5px 0px black;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;  
+}
+.Next{
+    background-color: #05BCCA;
+}
+.Catalog_PageButtonTxt{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;
+}
+.Previous:active{
+    box-shadow: 3px 3px 5px 0px black inset, 1px 1px 3px 0px white ;
+}
+
+.Next:active{
+    box-shadow: 3px 3px 5px 0px black inset, 1px 1px 3px 0px white ;
+}
+.Page_Counter{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;  
 }
