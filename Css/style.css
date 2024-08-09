@@ -314,7 +314,16 @@ footer{
     line-height: 24px;
     color: #2C4246;  
 }
+.Product .Cards{
+    padding: 0 0 8px;
 
+}
+.Product .Cards:hover{
+    filter: grayscale(60%);
+}
+.Product .HomeCard_Section1{
+    padding-inline: 8px;
+}
 .Card_1{
     grid-area: CARD1;
 }
