@@ -68,4 +68,11 @@
         "CARD5 CARD6"
         "CARD7 CARD8";
     }
+
+    /* ContacPage */
+    /* Main Section */
+    .Contact_MainSection{
+        padding-inline:45px;
+    }
+
 }

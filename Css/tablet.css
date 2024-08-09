@@ -28,7 +28,13 @@
     }
     /* Catalog page */
     /* Main Section */
-    .Catalog_MainSection{
-        padding-inline:32px;
+    .Contact_MainSection{
+        padding-inline:0;
+        justify-content: center;
     }
+
+    .Contact_MainContainer{
+        width: calc(680 / 745 * 100%);
+    }
+    
 }
