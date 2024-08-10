@@ -11,14 +11,12 @@
     }
     /* Section 2 */
     .HomePage_Section2{
+        /* height:620px; */
         padding-block: 48px;
     }
     .HomeCardContainer{
         padding-left: 32px;
 
-    }
-    .card4{
-        display: none;
     }
     /* Footer */
     footer{
@@ -29,12 +27,9 @@
     /* Catalog page */
     /* Main Section */
     .Contact_MainSection{
-        padding-inline:0;
+        height: 605px;
+        padding: 48px 32px;
         justify-content: center;
-    }
-
-    .Contact_MainContainer{
-        width: calc(680 / 745 * 100%);
     }
     
 }

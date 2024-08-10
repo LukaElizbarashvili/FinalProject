@@ -23,6 +23,7 @@
     }
     /* Section 2 */
     .HomePage_Section2{
+        /* height: 544px; */
         padding-block: 32px;
     }
     .Section2_Title{
@@ -35,6 +36,7 @@
     .Section2_Title::after{
         width: 156px;
     }
+    /* no matter what i did the website lost responsivness,only solution i found was deleting this one card */
     .card3{
         display: none;
     }
@@ -46,6 +48,12 @@
     }
     .Footer_Section{
         align-items: center;
+    }
+    .Footer_List{
+        align-items: center;
+    }
+    .Footer_Title::after{
+        margin-inline: auto;
     }
     .SoctialIconContainer{
         justify-content: center;
@@ -81,11 +89,59 @@
     .Catalog_PageButtonTxt{
         display: none;
     }
+    /* Contact Page */
+    /* Main Section */
+    .Contact_MainSection{
+        height: 711px;
+        padding:0;
+    }
+    .Contact_MainContainer{
+        padding: 32px 20px;
+    }
+    .Contact_SeconarySection{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .Contact_HeaderTxt{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ContactInfo{
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+        padding-block: 16px;
+    }
+    .ContactInfo_LeftSide{
+        flex-direction: row;
+        column-gap: 24px;
+    }
+    .Location_Logo_Container{
+        width: 24px;
+        height: 24px;
+    }
+    .ContactTxt{
+        display: none;
+    }
+    form,
+    .Map_Socials{
+        width: 100%;
+    }
+    .Contact_SocialsContainer{
+        justify-content: center;
+    }
+
+
 }
 @media (max-width: 321px){
     /* Catalog Page */
     /* Main Section */
     .Catalog_MainSection{
         padding-inline:8px;
+    }
+    /* Contact Page */
+    /* Mainc Section */
+    .Contact_MainContainer{
+        padding-inline: 8px;
     }
 }
